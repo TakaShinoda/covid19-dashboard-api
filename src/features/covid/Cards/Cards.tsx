@@ -30,7 +30,7 @@ export const Cards: FC = () => {
           </CardContent>
         </Grid>
 
-        <Grid item xs={12} md={3} component={Card} className={styles.infected}>
+        <Grid item xs={12} md={3} component={Card} className={styles.recovered}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
               <AiFillLike />
@@ -47,7 +47,7 @@ export const Cards: FC = () => {
           </CardContent>
         </Grid>
 
-        <Grid item xs={12} md={3} component={Card} className={styles.infected}>
+        <Grid item xs={12} md={3} component={Card} className={styles.deaths}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
               <GiHastyGrave />
@@ -63,8 +63,6 @@ export const Cards: FC = () => {
             </Typography>
           </CardContent>
         </Grid>
-
-
       </Grid>
     </div>
   )

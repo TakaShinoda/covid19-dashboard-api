@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import styles from './Chart.module.css'
-import { Line, Bar } from 'react-chartjs-2'
+import { Line } from 'react-chartjs-2'
 import { useSelector } from 'react-redux'
 import { selectDaily } from '../covidSlice'
 
